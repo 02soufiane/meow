@@ -4,17 +4,17 @@ consisting of lowercase and uppercase Latin characters. Now you want to find out
 
 For the sound to be a meowing, the string can only contain the letters 'm', 'e', 'o' and 'w', in either uppercase or lowercase. Also:
 
-    - string must start with non-empty sequence consisting only of characters 'm' or 'M'
-    - it must be immediately followed by non-empty sequence consisting only of characters 'e' or 'E'
-    - it must be immediately followed by non-empty sequence consisting only of characters 'o' or 'O'
-    - it must be immediately followed by non-empty sequence consisting only of characters 'w' or 'W', this sequence ends the string, after it immediately comes the string end 
+    string must start with non-empty sequence consisting only of characters 'm' or 'M'
+    it must be immediately followed by non-empty sequence consisting only of characters 'e' or 'E'
+    it must be immediately followed by non-empty sequence consisting only of characters 'o' or 'O'
+    it must be immediately followed by non-empty sequence consisting only of characters 'w' or 'W', this sequence ends the string, after it immediately comes the string end 
 
 For example, strings "meow", "mmmEeOWww", "MeOooOw" describe a meowing, but strings "Mweo", "MeO", "moew", "MmEW", "meowmeow" do not.
 
 Determine whether the sound you heard was a cat meowing or something else.
 
 
-#Output:
+-Output:
 
 For each test case, output on a separate line:
 
